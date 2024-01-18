@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   TextEditingController textEditingControllerEmailOrPhone =
       TextEditingController();
   TextEditingController textEditingControllerPassword = TextEditingController();
+  int a = 0;
   HiveRepo hiveRepo = HiveRepo();
   Map<String, String> mapList = {};
   List<String> namesList = [];
